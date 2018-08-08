@@ -5,26 +5,35 @@ STUDENT_NAMES = [
   "Lady Gaga",
   "Nicki Minaj",
   "Rihanna"
-]
 
 def first_student_by_index
-  # Write a solution that returns the first student in the array student_names
-end
+  count = 0
+  student_names = ["Adele" , "Beyoncé" , "Cardi B" , "Lady Gaga" , "Nicki Minaj" , "Rihanna"]
+  puts student_names.first
+  end
 
 def fourth_student_by_index
-  # Write a solution that returns the first student in the array student_names
-end
+  count = 0
+  student_names = ["Adele" , "Beyoncé" , "Cardi B" , "Lady Gaga" , "Nicki Minaj" , "Rihanna"]
+  puts student_names [3]
+  end
 
 def last_student_by_index
-  # Write a solution that returns the first student in the array student_names
-end
+  count = 0
+  student_names = ["Adele" , "Beyoncé" , "Cardi B" , "Lady Gaga" , "Nicki Minaj" , "Rihanna"]
+  puts student_names.last
+  end
 
 def first_student_by_method
-  # Write a solution that returns the first student using the built in .first method
+  count = 0
+  student_names.first = ["Adele" , "Beyoncé" , "Cardi B" , "Lady Gaga" , "Nicki Minaj" , "Rihanna"]
+  puts student_name.first
 end
 
 def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+  count = 0
+  student_names = ["Adele" , "Beyoncé" , "Cardi B" , "Lady Gaga" , "Nicki Minaj" , "Rihanna"]
+  puts student_names.last
 end
 
 def first_second_and_third_students
